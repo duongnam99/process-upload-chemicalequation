@@ -5,4 +5,6 @@
     - Khởi tạo dữ liệu cho elastic: `php artisan init:elastic --data chemical --action create` và `php artisan init:elastic --data equation --action create`
     - Gen slug cho phương trình và cate: `php artisan slug:gen --type equation`, `php artisan slug:gen --type cate`
     - Gen seo title cho phương trình hóa học: `php artisan seo:equation`
+    - Gen định nghĩa cate: `php artisan equation:definecate`
+    - Gen sitemap: `php artisan sitemap:chemicalequation --type=all`
 - **Lưu ý các hàm setup elastic trong model**
