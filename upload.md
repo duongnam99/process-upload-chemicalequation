@@ -1,5 +1,5 @@
 # Upload process
-- setup Elastic trên server
+- setup Elastic trên server (version 6.4.0)
 - migrate để tạo cột slug, seo title, description cho bảng chemical_equation và cột slug cho bảng equation_tag
 - chạy command: 
     - Khởi tạo dữ liệu cho elastic: `php artisan init:elastic --data chemical --action create` và `php artisan init:elastic --data equation --action create`
