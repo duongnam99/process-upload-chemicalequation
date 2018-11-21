@@ -7,9 +7,9 @@
     - Gen seo title cho phương trình hóa học: `php artisan seo:equation`
     - Gen định nghĩa cate: `php artisan equation:definecate`
     - Gen sitemap: `php artisan sitemap:chemicalequation --type=all` hoặc chạy từng phần:
-    - Gen sitemap: `php artisan sitemap:chemicalequation --type=cate`
-    - Gen sitemap: `php artisan sitemap:chemicalequation --type=equation`
-    - Gen sitemap: `php artisan sitemap:chemicalequation --type=chemical`
-    - Gen sitemap: `php artisan sitemap:chemicalequation --type=reactant`
-    - Gen sitemap: `php artisan sitemap:chemicalequation --type=product`
+        - Gen sitemap: `php artisan sitemap:chemicalequation --type=cate`
+        - Gen sitemap: `php artisan sitemap:chemicalequation --type=equation`
+        - Gen sitemap: `php artisan sitemap:chemicalequation --type=chemical`
+        - Gen sitemap: `php artisan sitemap:chemicalequation --type=reactant`
+        - Gen sitemap: `php artisan sitemap:chemicalequation --type=product`
 - **Lưu ý các hàm setup elastic trong model**
